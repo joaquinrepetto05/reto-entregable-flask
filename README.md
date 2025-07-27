@@ -12,11 +12,33 @@ Este proyecto, desarrollado en Flask, permite:
 > [!WARNING]
 > Es importante cumplir con los requisitos previos, o no se podrá ejecutar el proyecto.
 
-## Instalación
+## Instalación y ejecución
 1) Clonar el repositorio.
 2) Acceder a la carpeta raíz del proyecto.
 3) Crear un entorno virtual con el comando:
+
    ```bash
    python -m venv venv
    ```
-4) Activar el entorno virtual
+
+4) Activar el entorno virtual usando uno de los siguientes comandos:
+   En Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+
+   En macOS/Linux:
+   ```bash
+   source venv/bin/activate
+   ```
+
+5) Instalar las dependencias del proyecto con el comando:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+> [!TIP]
+> Una vez finalizado el proceso, ejectuar el proyecto con:
+> ```bash
+> python run.py
+> ```

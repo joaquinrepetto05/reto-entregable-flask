@@ -42,3 +42,11 @@ Este proyecto, desarrollado en Flask, permite:
 > ```bash
 > python run.py
 > ```
+
+## Endpoints
+A continuación se detalla el listado de endpoints contenidos en esta API:
+1) POST /horoscopo: Calcula el horóscopo Pokemon según fecha de nacimiento.
+2) GET /pokemon: Busca un Pokemon por nombre o tipo.
+3) POST /favoritos: Guarda un Pokemon como favorito.
+4) GET /favoritos: Lista los Pokemon favoritos de un usuario.
+5) DELETE /favoritos: Elimina un Pokemon favorito.
